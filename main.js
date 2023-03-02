@@ -23,8 +23,8 @@ function retornaMaiorNumero() {
     }
   }
 
-  document.write("O maior valor contido no array é: " + maiorNumero);
-  document.write("<br>" + numeros);
+  document.write("O maior valor contido no array é: " + maiorNumero + "<br>");
+  document.write("O array de números: " + numeros);
 }
 
 resultado.onclick = retornaMaiorNumero;
