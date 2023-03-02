@@ -24,6 +24,7 @@ function retornaMaiorNumero() {
   }
 
   document.write("O maior valor contido no array é: " + maiorNumero);
+  document.write("<br>" + numeros);
 }
 
 resultado.onclick = retornaMaiorNumero;
